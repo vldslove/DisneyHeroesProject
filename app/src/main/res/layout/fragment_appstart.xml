@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/red_hat_display"
+            android:text="@string/welcome_to_sleep"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="126dp"
+            android:textFontWeight="700"
+            android:textSize="30sp"
+            tools:targetApi="p" />
+
+        <ImageView
+            android:contentDescription="@string/first_start_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_birds"
+            android:layout_marginBottom="150dp"
+            android:layout_gravity="end"/>
+
+        <Button
+            android:id="@+id/getStarted"
+            style="@style/getStarted"
+            android:layout_width="374dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="94dp"
+            android:background="@drawable/bt_get_started_radius"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/button_get_started"
+            android:textFontWeight="400"
+            android:textSize="14sp"
+            tools:targetApi="p" />
+
+    </LinearLayout>
+
+</FrameLayout>

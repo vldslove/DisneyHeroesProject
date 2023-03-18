@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/drawable/bt_all.xml" value="0.1735" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/drawable/bt_favhero.xml" value="0.1735" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/drawable/button_firststart.xml" value="0.1735" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/drawable/button_getstarted.xml" value="0.1735" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/layout/activity_main.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/layout/fragment_appstart.xml" value="0.3" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/layout/fragment_description.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/layout/fragment_list.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/book/AndroidStudioProjects/disneyheroes/app/src/main/res/layout/hero_item.xml" value="0.34057971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.34057971014492755" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

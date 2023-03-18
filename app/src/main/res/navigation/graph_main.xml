@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_main"
+    app:startDestination="@id/appStartFragment">
+
+    <fragment
+        android:id="@+id/appStartFragment"
+        android:name="com.example.disneyHeroes.AppStartFragment"
+        android:label="AppStartFragment"
+        tools:layout="@layout/fragment_appstart">
+        <action
+            app:enterAnim="@anim/anim_next_fragment"
+            app:exitAnim="@anim/anim_previous_fragment"
+            app:popEnterAnim="@anim/anim_next_fragment"
+            app:popExitAnim="@anim/anim_previous_fragment"
+            android:id="@+id/action_appStartFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.disneyHeroes.characterlist.ListFragment"
+        android:label="ListFragment"
+        tools:layout="@layout/fragment_list">
+
+        <action
+            app:enterAnim="@anim/anim_next_fragment"
+            app:exitAnim="@anim/anim_previous_fragment"
+            app:popEnterAnim="@anim/anim_next_fragment"
+            app:popExitAnim="@anim/anim_previous_fragment"
+            android:id="@+id/action_listFragment_to_characterDescription"
+            app:destination="@id/characterDescription" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDescription"
+        android:name="com.example.disneyHeroes.onecharacter.CharacterDescription"
+        android:label="CharacterDescription"
+        tools:layout="@layout/fragment_description">
+        <argument
+            android:name="id_char"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">disneyHeroes</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="welcome_to_sleep">Welcome to sleep</string>
+    <string name="button_get_started">get started</string>
+    <string name="first_start_picture">first start picture</string>
+    <string name="characterImage">image of character</string>
+    <string name="backToList">back to list of characters</string>
+    <string name="addToFavourite">add to favourite</string>
+    <string name="deleteFromFavourite">delete from favourite</string>
+    <string name="allHeroes">show all heroes</string>
+    <string name="allFavouriteHeroes">show all favourite heroes</string>
+    <string name="charName">Character name</string>
+    <string name="charFilms">Films with character</string>
+    <string name="charShortFilms">Character short films</string>
+    <string name="charTvShows">Character TV shows</string>
+    <string name="charVideoGames">Character video games</string>
+    <string name="charParkAttractions">Character park attractions</string>
+    <string name="charAllies">Character allies</string>
+    <string name="charEnemies">Character enemies</string>
+    <string name="charURL">Character URL</string>
+    <string name="errorMessage">Error</string>
+    <string name="okBanner">Ok</string>
+    <string name="cancelBanner">Cancel</string>
+</resources>
